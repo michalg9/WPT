@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PowercastReceiverSide", "PowercastReceiverSide\PowercastReceiverSide.vcxproj", "{20AD9B37-DB54-4CC5-AF6B-5B79F230180F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PowercastTransmitterSide", "PowercastTransmitterSide\PowercastTransmitterSide.vcxproj", "{36EAF008-44F6-4B03-8AE6-F8DF3C40F88C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PowercastStackReceiver", "PowercastStackReceiver\PowercastStackReceiver.vcxproj", "{8C49535B-5CD7-4285-BC8B-2A020F427EA2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DebuggingTests", "DebuggingTests\DebuggingTests.vcxproj", "{E2406646-81F6-478C-AAB3-9AE0EE0B7F31}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PowercastStackTransmitter", "PowercastStackTransmitter\PowercastStackTransmitter.vcxproj", "{7785C522-F50C-4449-8520-BAD2E57EDBA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20AD9B37-DB54-4CC5-AF6B-5B79F230180F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20AD9B37-DB54-4CC5-AF6B-5B79F230180F}.Debug|Win32.Build.0 = Debug|Win32
+		{20AD9B37-DB54-4CC5-AF6B-5B79F230180F}.Release|Win32.ActiveCfg = Release|Win32
+		{20AD9B37-DB54-4CC5-AF6B-5B79F230180F}.Release|Win32.Build.0 = Release|Win32
+		{36EAF008-44F6-4B03-8AE6-F8DF3C40F88C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{36EAF008-44F6-4B03-8AE6-F8DF3C40F88C}.Debug|Win32.Build.0 = Debug|Win32
+		{36EAF008-44F6-4B03-8AE6-F8DF3C40F88C}.Release|Win32.ActiveCfg = Release|Win32
+		{36EAF008-44F6-4B03-8AE6-F8DF3C40F88C}.Release|Win32.Build.0 = Release|Win32
+		{8C49535B-5CD7-4285-BC8B-2A020F427EA2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8C49535B-5CD7-4285-BC8B-2A020F427EA2}.Debug|Win32.Build.0 = Debug|Win32
+		{8C49535B-5CD7-4285-BC8B-2A020F427EA2}.Release|Win32.ActiveCfg = Release|Win32
+		{8C49535B-5CD7-4285-BC8B-2A020F427EA2}.Release|Win32.Build.0 = Release|Win32
+		{E2406646-81F6-478C-AAB3-9AE0EE0B7F31}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2406646-81F6-478C-AAB3-9AE0EE0B7F31}.Debug|Win32.Build.0 = Debug|Win32
+		{E2406646-81F6-478C-AAB3-9AE0EE0B7F31}.Release|Win32.ActiveCfg = Release|Win32
+		{E2406646-81F6-478C-AAB3-9AE0EE0B7F31}.Release|Win32.Build.0 = Release|Win32
+		{7785C522-F50C-4449-8520-BAD2E57EDBA0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7785C522-F50C-4449-8520-BAD2E57EDBA0}.Debug|Win32.Build.0 = Debug|Win32
+		{7785C522-F50C-4449-8520-BAD2E57EDBA0}.Release|Win32.ActiveCfg = Release|Win32
+		{7785C522-F50C-4449-8520-BAD2E57EDBA0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

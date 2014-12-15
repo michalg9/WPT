@@ -1,0 +1,32 @@
+
+
+MAX_MEASUREMENTS = 10;
+MAX_TX = 4;
+for i = 1:MAX_MEASUREMENTS
+    for txNum = 1:MAX_TX
+        filenameMeasurements = ['meas100914_203635/tx' int2str(txNum) '/EVENT' int2str(i) '.txt'];
+        if (exist(filenameMeasurements, 'file') == 2)
+            eventBeaconing{i, txNum} = importEventLog(filenameMeasurements);
+        end
+    end
+end
+
+[numberExperiments numberTx] = size(eventBeaconing);
+
+index = 1;
+for i=1:numberExperiments
+    for j=1:numberTx
+        if (isempty(eventBeaconing{i,j}))
+            continue;
+        end
+        
+        currentEventBeaconing = eventBeaconing{i,j};
+        for k=1:length(currentEventBeaconing)
+           if (strcmp('packet', currentEventBeaconing{1,k}))
+              rssiValues(index, 1) = currentEventBeaconing{1,1};
+              rssiValues(index, 1)
+           end
+        end
+        
+    end
+end

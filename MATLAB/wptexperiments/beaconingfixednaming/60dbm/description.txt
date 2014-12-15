@@ -1,0 +1,28 @@
+Measurements of beaconing for rrsi threshold 60.
+
+MEAS 2-7: THRESHOLD 60
+
+
+// from PowercastRxControl3Layer.h
+#define DELAY_PING 4000U
+#define DELAY_REMOVE_LAST_PROBE_SENDER 20000U
+#define DELAY_WAITING_FOR_SECOND_PROBE 6000U
+
+#define VOLTAGE_THRESHOLD 600
+
+// from PowercastTxControl2Layer.h
+//#define TIMEOUT_PING 11000U
+#define TIMEOUT_PING DELAY_PING*2
+
+#define TIMEOUT_ON_PROBE DELAY_PING
+#define FIRST_CHECK_AFTER 2000U
+
+//#define TIMEOUT_PROBE_SENT 10000U
+#define TIMEOUT_PROBE_SENT TIMEOUT_PING
+#define RSSI_THRESHOLD 70
+
+
+#define TEST_TIME_ON 40000U
+#define TEST_TIME_OFF 15000U
+#define TEST_TIME_ON_RANDOM  4000U
+#define TEST_COUNT_MAX 10
